@@ -4,3 +4,31 @@ __pycache__/
 venv/
 emotion_assistant_env/
 *.dylib
+
+
+# Ignore virtual environment
+emotion_assistant_env/
+
+# Ignore cache files
+__pycache__/
+*.py[cod]
+
+# Ignore large compiled libraries
+*.dylib       # For macOS dynamic libraries
+*.so          # For Linux shared objects
+*.dll         # For Windows dynamic link libraries
+
+# Ignore environment files
+.env
+
+# Ignore logs
+*.log
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore temporary files
+*.tmp
+
+# macOS system files
+.DS_Store
