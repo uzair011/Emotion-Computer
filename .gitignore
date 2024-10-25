@@ -1,33 +1,21 @@
-__pycache__/
-*.pyc
-.env
+# Virtual environment directories
+emotion_assistant_env/
 venv/
-emotion_assistant_env/
-*.dylib
 
-
-# Ignore virtual environment
-emotion_assistant_env/
-
-# Ignore cache files
+# Python cache files
 __pycache__/
 *.py[cod]
 
-# Ignore large compiled libraries
+# Large compiled libraries
 *.dylib       # For macOS dynamic libraries
 *.so          # For Linux shared objects
 *.dll         # For Windows dynamic link libraries
 
-# Ignore environment files
+# Environment and config files
 .env
 
-# Ignore logs
+# Log and temporary files
 *.log
-
-# Ignore macOS system files
-.DS_Store
-
-# Ignore temporary files
 *.tmp
 
 # macOS system files
