@@ -1,22 +1,51 @@
-# Virtual environment directories
+# Ignore virtual environment
 emotion_assistant_env/
-venv/
 
-# Python cache files
+# Ignore cache files
 __pycache__/
 *.py[cod]
 
-# Large compiled libraries
-*.dylib       # For macOS dynamic libraries
-*.so          # For Linux shared objects
-*.dll         # For Windows dynamic link libraries
+# Ignore package dependencies
+venv/
+env/
+emotion_assistant_env/lib/python*/site-packages/
 
-# Environment and config files
+# Ignore large compiled libraries
+*.dylib
+*.so
+*.dll
+
+# Ignore environment and config files
 .env
 
-# Log and temporary files
+# Ignore log and temporary files
 *.log
 *.tmp
 
-# macOS system files
+# Ignore macOS system files
 .DS_Store
+
+
+
+# # Virtual environment directories
+# emotion_assistant_env/
+# venv/
+
+# # Python cache files
+# __pycache__/
+# *.py[cod]
+
+# # Large compiled libraries
+# *.dylib       # For macOS dynamic libraries
+# *.so          # For Linux shared objects
+# *.dll         # For Windows dynamic link libraries
+
+# # Environment and config files
+# .env
+
+# # Log and temporary files
+# *.log
+# *.tmp
+
+# # macOS system files
+# .DS_Store
